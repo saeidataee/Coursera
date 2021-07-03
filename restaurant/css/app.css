@@ -28,6 +28,10 @@ body {
     color: #61122f !important;
 }
 
+.header-logo-part {
+    width: 260px !important;
+}
+
 /* main */
 
 .main-img {
@@ -52,7 +56,7 @@ body {
     background: #000;
     color: #fff;
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.6;
 
 }
 
