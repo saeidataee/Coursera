@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bistro Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light nav-div py-1">
+            <div class="container-lg">
+                <a class="navbar-brand py-0" href="index.html">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3 ps-0">
+                                <img src="img/restaurant-logo_large.png" alt="logo" width="110%"
+                                    class="d-inline-block align-text-center">
+                            </div>
+                            <div class="col-9 my-auto">
+                                <div class="d-inline-block">
+                                    <div class="m-0 p-0 fs-5 brand-text">Bistro Restaurant</div>
+                                    <div class="m-0 p-0 fs-6 brand-text">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                            fill="currentColor" class="bi bi-patch-check-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
+                                        </svg>
+                                        Italian Certified
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <button class="navbar-toggler navbar-ctx" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-house-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                                    <path fill-rule="evenodd"
+                                        d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                                </svg>
+                                Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-list-ul" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                                </svg>
+                                Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z" />
+                                </svg>
+                                Contact</a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+
+    <div id="main-content" class="container-lg text-center">
+        <div class="contaner-fluid my-3 main-img">
+            <span class="img-txt">bistro restaurant</span>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-6 box-titles">
+                <a href="menu.html">
+                    <div id="menu-tile"><span>menu</span></div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6 box-titles">
+                <a href="single.html">
+                    <div id="special-tile"><span>specials</span></div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-12 box-titles">
+                <a href="https://goo.gl/maps/Xp5vo6w5R8aroLZQ8" target="_blank">
+                    <div id="map-tile">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1439.2066649132055!2d-79.37736322090456!3d43.82652703778636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d355a8d8d5db%3A0x6277be9f78bf6f19!2s74%20Bronte%20Rd%2C%20Thornhill%2C%20ON%20L3T%207J4!5e0!3m2!1sen!2sca!4v1625335452882!5m2!1sen!2sca"
+                            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <span>specials</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer class="panel-footer py-3">
+        <div class="container-lg">
+            <div class="row">
+                <div id="hourse" class="col-md-4">
+                    <span class="ft-txt">Hourse:</span><br>
+                    Moonday - Friday: 11am - 11p<br>
+                    Saturday - Sunday: 12pm - 12am
+                    <hr style="width:70%; margin:10px auto;" class="visible-xs">
+                </div>
+                <div id="address" class="col-md-4">
+                    <span class="ft-txt">Address:</span><br>
+                    74 Bronte Road, Thornihll<br>
+                    Ontario, Canada, L3T 7J4
+                    <hr style="width:70%; margin:10px auto;" class="visible-xs">
+                </div>
+                <div id="testimonials" class="col-md-4">
+                    <div>"The best Italian cousine in the neighborhood!" <br>
+                        <span><em>-- Nicole Scott</em></span>
+                    </div>
+                    <div>"So friendly and gentle!" <br>
+                        <span><em>-- Dave Corlton</em></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right">
+                Copyright &copy; Italian Bistro 2021 - All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/ca441f9a8a.js" crossorigin="anonymous"></script> -->
+</body>
+
+</html>
