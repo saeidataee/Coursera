@@ -132,6 +132,7 @@ body {
 @media (max-width: 576px) {
     .main-img, .table-img, .pizza-img {
         height: 100vh;
+        background-position: left;
     }
     .img-txt {
         font-size: 7vw;
